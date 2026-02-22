@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Local Dev Setup (Frontend)
+
+1. Create a frontend env file:
+
+```bash
+cp .env.example .env
+```
+
+2. Set `NEXT_PUBLIC_API_BASE_URL` in `.env` to your backend origin (example: `http://localhost:3000`).
+
+3. Make sure the backend CORS config allows the frontend origin and credentials (`credentials: 'include'`) for session cookie auth (`sid`).
+
 ## Getting Started
 
 First, run the development server:
