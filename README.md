@@ -1,5 +1,17 @@
 This is a password manager frontend built with [Next.js](https://nextjs.org).
 
+## Live Demo / Portfolio
+
+Portfolio link: [https://app.kenviriya.space/](https://app.kenviriya.space/)
+
+You can try the app using:
+- Email: `example@gmail.com`
+- Password: `Example123`
+
+## Deployment
+
+This project is deployed from my home server using Coolify and exposed securely through a Cloudflare Tunnel.
+
 ## Purpose
 
 This project is intended to showcase my understanding of Redux and React hooks in a practical application.
